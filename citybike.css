@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body, qv-object, header, div.qv-object-wrapper, span:not(.magnifying-glass), .empty-text {
+  font-family: 'Montserrat', serif !important;
+}
+
+.fa-sitemap {
+  font-size:1.4em;
+  font-weight: normal;
+}
+
+ul.nav-pills li a {
+  color: #2A71AF;
+}
+
+ul.nav-pills li a:hover {
+  background: #8DC73F !important;
+  color: #fff;
+}
+
+ul.nav-pills li.active a {
+  background: #2A71AF !important;
+}
+
+.kpiRow div {
+  height:70px;
+}
+
+
+div.title, span.title-text, .qv-collapsed-listbox {
+  color:#444 !important;
+}
+
+.nav, .nav-pills {
+  float:right;
+}
+
+.pageTitle h1 {
+  font-family: 'Montserrat', serif !important;
+  font-weight:400;
+  font-size: 2em !important;
+  color: #116F89;
+  margin-bottom: -20px;
+}
+
+span.lui-icon, span.lui-search__search-icon {
+  font-family: 'LUI icons' !important;
+}
+
+.qv-object-subtitle h2 {
+  font-size:1em;
+}
+
+h3 {
+  font-family: 'Montserrat', 'Open Sans', serif !important;
+  font-size: 13px !important;
+  color: #7DAF36 !important;
+  font-weight:normal !important;
+}
+
+h3, .qv-object-title span, .qvt-visualization-title span,
+.measure-title span, .qv-object-header, .qv-object-title-text {
+  font-family: 'Montserrat', serif !important;
+  font-weight:400;
+  font-size: 16px !important;
+  color: #7DAF36 !important;
+}
+
+.measure-title {
+  font-size: 1.3em !important;
+}
+
+.qv-object-content {
+  font-size:0.9em !important;
+}
+
+#logo {
+	height:40px;
+  padding-left: 10px;
+	background-image: url("img/citybike-logo.jpg");
+	background-repeat: no-repeat;
+  background-position: 15px;
+}
+
+.section {
+  padding:20px !important;
+}
+
+.qv-panel-current-selections, .qv-selections-pager,
+.qv-panel-current-selections .text, .qv-panel-current-selections .empty-text {
+  font-size: 0.95em !important;
+}
+
+.qv-global-search-input, .qv-search-input {
+  height:50px;
+}
+
+.help, .help:enabled {
+  margin-right:-8px;
+  margin-top:-5px;
+  float:right;
+  font-size: 1.5em;
+  font-weight:normal;
+  color:#ccc;
+  text-decoration: none;
+}
+
+.help:hover, .help:active {
+  color:orange;
+  text-decoration: none;
+}
+
+a.list-group-item {
+  border:0;
+  color:#337CBB;
+}
+
+a.list-group-item:hover {
+  background: #FFCD19;
+  color:#fff;
+}
+
+.fa-chevron-up, a.fa-chevron-up {
+  float:right;\
+  display:block;
+  background: #337CBB;
+  color:#fff;
+  padding:5px;
+  margin-right:20px;
+  text-decoration: none;
+}
+
+.fa-chevron-up.collapsed {
+  transform: rotate(180deg);
+  text-decoration: none;
+}
+
+a.fa-chevron-up:hover {
+  background: #FFCD19;
+}
+
+.tooltip {
+  float:left;
+}
+
+.tooltip-inner {
+  padding:20px;
+}
+
+div.qv-listbox-wrapper .selected {
+  background: #1AA4CE !important;
+  border-bottom: 1px solid #fff;
+}
+
+div.qv-listbox-wrapper .serverAlternative {
+  background: #D4E7F4 !important;
+}
+
+div.qv-listbox-wrapper .serverExcluded {
+  background: #70787F !important;
+}
+
+.qv-listbox-text {
+  text-align: left !important;
+}
+
+
+
+/*
+
+.qv-panel-current-selections,
+.qv-panel-current-selections .buttons,
+.qv-panel-current-selections .buttons-end,
+.qv-panel-current-selections .buttons, .qv-subtoolbar-button,
+.qv-panel-current-selections .buttons-end .qv-subtoolbar-button,
+.qv-panel-current-selections .empty-text,
+.qv-panel-current-selections .text,
+.no-selection, .qv-selections-pager, .borderbox, .wrap, .qv_pager, .buttons-end,
+.touch-on .qv-panel-current-selections .buttons .qv-subtoolbar-button:hover:enabled,
+.touch-on .qv-panel-current-selections .buttons-end .qv-subtoolbar-button:hover:enabled {
+	background: #eee !important;
+  border:0 !important;
+	}
+
+.buttons .borderbox {
+  color: green !important;
+}
+
+*/

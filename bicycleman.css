@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+
+body, qv-object, header, div.qv-object-wrapper, span:not(.magnifying-glass), .empty-text {
+  font-family: 'Noto Sans', serif !important;
+  zoom: 100%;
+}
+
+.kpiRow div {
+  height:70px;
+}
+
+ul.nav-pills li a {
+  color: #4D4D4D;
+}
+
+ul.nav-pills li a:hover {
+  background: #666666 !important;
+  color: #fff;
+}
+
+ul.nav-pills li.active a {
+  background: #FFAD00 !important;
+}
+
+span.lui-icon, span.lui-search__search-icon {
+  font-family: 'LUI icons' !important;
+}
+
+
+div.title, span.title-text, .qv-collapsed-listbox {
+  color:#444 !important;
+}
+
+.nav, .nav-pills {
+  float:right;
+}
+
+.pageTitle h1 {
+  font-weight:700;
+  font-weight:bold;
+  font-size: 2.5em !important;
+  color: #F7B016;
+  margin-bottom: -20px;
+}
+
+h3 {
+  font-weight:900;
+  font-size: 1.5em !important;
+  color: #D3B347 !important;
+}
+
+.qv-object-title span, .qvt-visualization-title span,
+.measure-title span, .qv-object-header {
+  font-weight:700;
+  font-size: 16px !important;
+  color: #9E6900 !important;
+}
+
+.measure-title {
+  font-size: 1.3em !important;
+}
+
+.qv-object-content {
+  font-size:0.9em !important;
+}
+
+#logo {
+	height:40px;
+  padding-left: 10px;
+	background-image: url("img/logo-bm.jpg");
+	background-repeat: no-repeat;
+  background-position: 15px;
+}
+
+.section {
+  padding:20px !important;
+}
+
+.qv-panel-current-selections, .qv-selections-pager,
+.qv-panel-current-selections .text, .qv-panel-current-selections .empty-text {
+  font-size: 0.95em !important;
+}
+
+.qv-global-search-input, .qv-search-input {
+  height:50px;
+}
+
+.help, .help:enabled {
+  margin-right:-8px;
+  margin-top:-5px;
+  float:right;
+  font-size: 1.5em;
+  font-weight:normal;
+  color:#ccc;
+  text-decoration: none;
+}
+
+.help:hover, .help:active {
+  color:orange;
+  text-decoration: none;
+}
+
+a.list-group-item {
+  border:0;
+  color:#337CBB;
+}
+
+a.list-group-item:hover {
+  background: #FFCD19;
+  color:#fff;
+}
+
+.fa-chevron-up, a.fa-chevron-up {
+  float:right;\
+  display:block;
+  background: #FDAC12;
+  color:#fff;
+  padding:5px;
+  margin-right:20px;
+  text-decoration: none;
+}
+
+.fa-chevron-up.collapsed {
+  transform: rotate(180deg);
+  text-decoration: none;
+}
+
+a.fa-chevron-up:hover {
+  background: #C68109;
+}
+
+.tooltip {
+  float:left;
+}
+
+.tooltip-inner {
+  padding:20px;
+}
+
+div.qv-listbox-wrapper .selected {
+  background: #F4AF0A !important;
+  border-bottom: 1px solid #fff;
+}
+
+div.qv-listbox-wrapper .serverAlternative {
+  background: #F2E0B8 !important;
+}
+
+div.qv-listbox-wrapper .serverExcluded {
+  background: #70787F !important;
+}
+
+.qv-listbox-text {
+  text-align: left !important;
+}
+
+
+
+
+.qv-panel-current-selections,
+.qv-panel-current-selections .buttons,
+.qv-panel-current-selections .buttons-end,
+.qv-panel-current-selections .buttons, .qv-subtoolbar-button,
+.qv-panel-current-selections .buttons-end .qv-subtoolbar-button,
+.qv-panel-current-selections .empty-text,
+.qv-panel-current-selections .text,
+.no-selection, .qv-selections-pager, .borderbox, .wrap, .qv_pager, .buttons-end,
+.touch-on .qv-panel-current-selections .buttons .qv-subtoolbar-button:hover:enabled,
+.touch-on .qv-panel-current-selections .buttons-end .qv-subtoolbar-button:hover:enabled {
+	background: #6B4705 !important;
+  border:0 !important;
+	}
